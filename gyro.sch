@@ -1889,10 +1889,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="121.92" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
-<label x="40.64" y="71.12" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="4"/>
-<label x="45.72" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<label x="45.72" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -1906,10 +1905,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="121.92" y="53.34"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<label x="40.64" y="73.66" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="5"/>
-<label x="45.72" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="3"/>
+<wire x1="40.64" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
+<label x="45.72" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_3.3V" class="0">
