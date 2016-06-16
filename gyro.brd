@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -15,16 +15,16 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -150,14 +150,11 @@
 <text x="12.4685375" y="8.466521875" size="0.8128" layer="21" ratio="15" rot="R180">SCL</text>
 <text x="1.27" y="1.27" size="0.6096" layer="21" ratio="15">10uF</text>
 <text x="5.323621875" y="3.832565625" size="0.6096" layer="21" ratio="15">0.1uF</text>
-<wire x1="1.5014625" y1="8.878928125" x2="1.5014625" y2="9.894928125" width="0.254" layer="21"/>
-<circle x="1.651" y="6.35" radius="0.127" width="0.254" layer="21"/>
-<text x="0.127" y="9.398" size="1.016" layer="21" font="vector" ratio="15">X</text>
+<circle x="1.143" y="6.604" radius="0.127" width="0.254" layer="21"/>
+<text x="0.127" y="8.89" size="1.016" layer="21" font="vector" ratio="15">X</text>
 <text x="0.127" y="7.62" size="1.016" layer="21" font="vector" ratio="15">Y</text>
-<text x="0.127" y="5.842" size="1.016" layer="21" font="vector" ratio="15">Z</text>
+<text x="0.127" y="6.096" size="1.016" layer="21" font="vector" ratio="15">Z</text>
 <wire x1="1.778" y1="7.874" x2="0.762" y2="7.874" width="0.254" layer="21"/>
-<wire x1="1.86119375" y1="9.49286875" x2="1.48019375" y2="9.87386875" width="0.254" layer="21"/>
-<wire x1="1.50085625" y1="9.875925" x2="1.11985625" y2="9.494925" width="0.254" layer="21"/>
 <text x="1.19653125" y="11.412471875" size="0.6096" layer="21" ratio="15" rot="R90">10k</text>
 <text x="0.254" y="13.97" size="1.016" layer="21">William Laney</text>
 <text x="0.508" y="0.254" size="0.6096" layer="21">L3GD20H Breakout v1</text>
@@ -169,6 +166,9 @@
 <wire x1="12.7" y1="3.556" x2="11.938" y2="3.048" width="0.254" layer="21"/>
 <wire x1="0.766296875" y1="7.904225" x2="1.147296875" y2="8.285225" width="0.254" layer="21"/>
 <wire x1="1.112234375" y1="7.502265625" x2="0.731234375" y2="7.883265625" width="0.254" layer="21"/>
+<wire x1="1.2474625" y1="8.878928125" x2="1.2474625" y2="9.894928125" width="0.254" layer="21"/>
+<wire x1="1.24685625" y1="9.875925" x2="0.86585625" y2="9.494925" width="0.254" layer="21"/>
+<wire x1="1.60719375" y1="9.49286875" x2="1.22619375" y2="9.87386875" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -548,7 +548,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R7" pad="1"/>
 <wire x1="8.62" y1="7.575" x2="8.62" y2="7.075" width="0.254" layer="1"/>
 <wire x1="8.62" y1="7.075" x2="8.845" y2="6.85" width="0.254" layer="1"/>
-<wire x1="2.794" y1="7.62" x2="2.54" y2="7.62" width="0" layer="19" extent="1-16"/>
 <wire x1="2.794" y1="7.62" x2="1.27" y2="7.62" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="11.43" y="12.7"/>
