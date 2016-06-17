@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,9 +18,9 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -144,8 +144,8 @@
 <wire x1="0" y1="15.24" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="0" x2="15.24" y2="0" width="0.2032" layer="20"/>
 <wire x1="15.24" y1="0" x2="15.24" y2="15.24" width="0.2032" layer="20"/>
-<text x="10.16" y="0.254" size="0.8128" layer="21" ratio="15">VCC</text>
-<text x="10.033" y="13.462" size="0.8128" layer="21" ratio="15">GND</text>
+<text x="10.16" y="0.762" size="0.8128" layer="21" ratio="15">VCC</text>
+<text x="12.446" y="12.319" size="0.8128" layer="21" ratio="15" rot="R90">GND</text>
 <text x="12.954" y="2.81081875" size="0.8128" layer="21" ratio="15" rot="R180">SDA</text>
 <text x="12.4685375" y="8.466521875" size="0.8128" layer="21" ratio="15" rot="R180">SCL</text>
 <text x="1.27" y="1.27" size="0.6096" layer="21" ratio="15">10uF</text>
@@ -155,11 +155,11 @@
 <text x="0.127" y="7.62" size="1.016" layer="21" font="vector" ratio="15">Y</text>
 <text x="0.127" y="6.096" size="1.016" layer="21" font="vector" ratio="15">Z</text>
 <wire x1="1.778" y1="7.874" x2="0.762" y2="7.874" width="0.254" layer="21"/>
-<text x="1.19653125" y="11.412471875" size="0.6096" layer="21" ratio="15" rot="R90">10k</text>
+<text x="1.57753125" y="11.539471875" size="0.6096" layer="21" ratio="15" rot="R90">10k</text>
 <text x="0.254" y="13.97" size="1.016" layer="21">William Laney</text>
-<text x="0.508" y="0.254" size="0.6096" layer="21">L3GD20H Breakout v1</text>
-<text x="6.232671875" y="12.5332375" size="0.6096" layer="21" ratio="15">10k</text>
-<text x="7.61538125" y="11.396003125" size="0.6096" layer="21" ratio="15">10k</text>
+<text x="0.254" y="0.2794" size="0.6096" layer="21">L3GD20H Breakout</text>
+<text x="4.1037625" y="11.566671875" size="0.6096" layer="21" ratio="15" rot="R90">10k</text>
+<text x="9.177996875" y="10.79038125" size="0.6096" layer="21" ratio="15" rot="R90">10k</text>
 <text x="3.06518125" y="8.7340375" size="0.6096" layer="21" ratio="15">10k</text>
 <text x="10.391434375" y="4.053621875" size="0.6096" layer="21" ratio="15" rot="R90">0.1uF</text>
 <wire x1="11.938" y1="7.366" x2="12.7" y2="6.858" width="0.254" layer="21"/>
@@ -169,6 +169,8 @@
 <wire x1="1.2474625" y1="8.878928125" x2="1.2474625" y2="9.894928125" width="0.254" layer="21"/>
 <wire x1="1.24685625" y1="9.875925" x2="0.86585625" y2="9.494925" width="0.254" layer="21"/>
 <wire x1="1.60719375" y1="9.49286875" x2="1.22619375" y2="9.87386875" width="0.254" layer="21"/>
+<text x="6.8072" y="12.9794" size="0.6096" layer="21" font="vector" ratio="15">2016</text>
+<text x="9.017" y="0.254" size="0.6096" layer="21" font="vector">v1</text>
 </plain>
 <libraries>
 <library name="microbuilder">
