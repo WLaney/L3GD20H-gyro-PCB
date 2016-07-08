@@ -1,0 +1,15 @@
+This is a breakout board for the L3GD20H IC. The L3GD20H is a 3-axis gyroscope with the capablity to output data through both SPI and I2C interfaces. This breakout board only alows the L3GD20H to communicate using I2C, SPI has been disabled. For more information on this please view the L3GD20H data sheet. The I2C address for this chip is 0X6B in hex, which corosbonds to 1101011b. 
+
+The board is desgined to be stackable with the Sparkfun MMA8452 breakout board. To allow for this funcunality two unused header pin wholes have been added between the SCL and ground pins. 
+
+There are two pours on this desgine. The bottom layer of the board has a ground pour, and the preimter of the top layer has a VCC pour. I belive this VCC pour was a mistake. It can lead to interfence problesm, and capacitance problems. Furthermore the ammount of current flowing through the board does not requite the amount of copper the VCC pour provides. The VCC pour should be removed in version two of the desgine.
+
+Printed on the silk screen of the board there are arrows corosponding to the postive direction of rotation for each axis. These arrows show the direction around the labled axis the board must move for the movemnt to be regestered as postive by the device.
+
+All traces on this board are 0.01" and the vias have 0.02" drill holes. This is more than sufficent to handle the current through the traces. Right angles in the trace are avoid to help ensure data intgrety.
+
+Decoupling capcitors have added as near to the chip as possible to minimze noise to the chip. This is detailed in the data sheet.
+
+The large white dot on the silkscreen directly next to the chip corosponds to a dot on the same location on the physical chip package and assures that the chip is attached to the board in the proper orintation.
+
+On June 17 2016 six v1 boards were ordered form OSHpark for $3.70. Four of these boards were assembled and two were found to be fully functional. It is belived that the two non funcining boards were due to assembling error, not desgine error.
