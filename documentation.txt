@@ -12,4 +12,6 @@ Decoupling capcitors have added as near to the chip as possible to minimze noise
 
 The large white dot on the silkscreen directly next to the chip corosponds to a dot on the same location on the physical chip package and assures that the chip is attached to the board in the proper orintation.
 
+0805 package size are used for all passive compnets. This size was selected because I belive it so be a good compromise between size and ease of placment.
+
 On June 17 2016 six v1 boards were ordered form OSHpark for $3.70. This corosponds to $0.61 per board. Four of these boards were assembled and two were found to be fully functional. It is belived that the two non funcining boards were due to assembling error, not desgine error.
