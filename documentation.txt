@@ -1,3 +1,6 @@
+This board was desgined by William Laney as part of the College of William and Mary's physics REU programe, 2016. 
+Questions or concerns can be directed at William Laney at welaney@email.wm.edu
+
 This is a breakout board for the L3GD20H IC. The L3GD20H is a 3-axis gyroscope with the capablity to output data through both SPI and I2C interfaces. This breakout board only alows the L3GD20H to communicate using I2C, SPI has been disabled. For more information on this please view the L3GD20H data sheet. The I2C address for this chip is 0X6B in hex, which corosbonds to 1101011b. 
 
 The board is desgined to be stackable with the Sparkfun MMA8452 breakout board. To allow for this funcunality two unused header pin wholes have been added between the SCL and ground pins. 
