@@ -3,4 +3,4 @@ component/value, size, quanity, digikey part number
 10k reisistor, 0805, 4, 311-10.0KCRCT-ND
 0.1uF capacitor, 0805, 2, 478-3755-1-ND
 10uF capacitor, 0805, 1, 490-4735-1-ND
-L3GD20HTR IC, NA, 1, 497-13931-1-ND
+L3GD20HTR IC, 16-LGA, 1, 497-13931-1-ND
