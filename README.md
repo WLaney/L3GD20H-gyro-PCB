@@ -9,7 +9,7 @@ powered with 3.3V.
 Additionaly this board was desgined in such a way to be pin compatable with [Sparkfun's MMA8452Q breakout board](https://www.sparkfun.com/products/12756). 
 These boards can be stacked to help save space in embedded projects.
 
-This board was desgined as part of the Sharkduino Project and the College of William and Mary, more information can be found at [sharkduino.com](http://www.sharkduino.com)
+This board was desgined as part of the Sharkduino Project at The College of William and Mary, more information can be found at [sharkduino.com](http://www.sharkduino.com)
 
 Design/Changes by William Laney,
 Original Design by Adafruit Industries.
