@@ -1,4 +1,4 @@
-#L3GD20H breakout PCB
+# L3GD20H breakout PCB
 This is a breakout board for the I2C functionality of the L3GD20H IC gyroscope.
 This chip does have SPI and interrupt capabilities, but these are not broken out on this board.
 
@@ -20,5 +20,5 @@ To order this board from OSH Park please click here:
 
 <a href="https://oshpark.com/shared_projects/uGds3Je4"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
-##Desgine Notes
+## Desgine Notes
 This is the first PCB I designed and there are some parts of it that I would change, however I have built this board and it functions properly.
